@@ -1,37 +1,25 @@
-// ============================
-// PLAYER ONE'S BIRTHDAY QUEST
-// ============================
 
 const loginScreen = document.getElementById("loginScreen");
 const homeScreen = document.getElementById("homeScreen");
 
-const password = document.getElementById("password");
-const enterBtn = document.getElementById("enterBtn");
-const error = document.getElementById("error");
+    const password = document.getElementById("password");
+    const enterBtn = document.getElementById("enterBtn");
+    const error = document.getElementById("error");
 
 const startQuest = document.getElementById("startQuest");
-
 const music = document.getElementById("bgMusic");
 
-// Hide home screen at first
+
 homeScreen.style.display = "none";
+    const correctPassword = "051726";
 
-// ============================
-// PASSWORD
-// ============================
-
-const correctPassword = "051726";
-
-// ============================
-// LOGIN
-// ============================
 
 enterBtn.addEventListener("click", login);
 
 password.addEventListener("keypress", function(e){
 
-    if(e.key === "Enter"){
-        login();
+if(e.key === "Enter"){
+login();
     }
 
 });

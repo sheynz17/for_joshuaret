@@ -34,9 +34,9 @@ setInterval(() => {
 // =======================
 const pages = [
     "flowers.htm",
-    "",
+    "cake.htm",
     "music.htm",
-    "flowers.htm"
+    "message.htm"
 ];
 
 cards.forEach((card, index) => {
